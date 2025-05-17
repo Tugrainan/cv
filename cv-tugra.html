@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tuğra İnan - CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Lato', sans-serif; background: #fafafa; color: #333; }
+        .cv-container { max-width: 850px; margin: 50px auto; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .header { background: linear-gradient(135deg, #4B79A1 0%, #283E51 100%); color: #fff; padding: 40px 30px; display: flex; align-items: center; }
+        .profile-pic { width: 120px; height: 120px; border-radius: 50%; border: 3px solid #fff; object-fit: cover; margin-right: 30px; }
+        .header-info h1 { font-size: 32px; font-weight: 700; margin-bottom: 5px; }
+        .header-info p { font-size: 18px; font-weight: 300; opacity: 0.8; }
+        .content { display: flex; }
+        .main { flex: 2; padding: 30px; }
+        .sidebar { flex: 1; background: #f4f7fa; padding: 30px; }
+        .section { margin-bottom: 30px; }
+        .section h2 { font-size: 20px; font-weight: 700; color: #4B79A1; margin-bottom: 15px; position: relative; }
+        .section h2::after { content: ''; position: absolute; left: 0; bottom: -5px; width: 50px; height: 3px; background: #4B79A1; }
+        .section p, .section ul { font-weight: 300; line-height: 1.6; }
+        .section ul { list-style: none; padding-left: 0; }
+        .section ul li { position: relative; padding-left: 20px; margin-bottom: 10px; }
+        .section ul li::before { content: '•'; position: absolute; left: 0; color: #4B79A1; }
+        .contact-list li { margin-bottom: 10px; display: flex; align-items: center; }
+        .contact-list li span { margin-left: 10px; }
+        .timeline { border-left: 3px solid #4B79A1; padding-left: 20px; }
+        .timeline-item { margin-bottom: 20px; }
+        .timeline-item h3 { font-size: 16px; font-weight: 700; margin-bottom: 5px; }
+        .timeline-item span { font-size: 14px; font-style: italic; opacity: 0.7; }
+    </style>
+</head>
+<body>
+<div class="cv-container">
+    <div class="header">
+        <img src="profile.jpg" alt="Profil Fotoğrafı" class="profile-pic">
+        <div class="header-info">
+            <h1>Tuğra İnan</h1>
+            <p>Computer Engineering Student</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="main">
+            <div class="section">
+                <h2>Profile</h2>
+                <p>I am a 2nd year Computer Engineering student, I love coding, I always try to improve myself and learn new skills. Since I am interested in the game development field. I love being social and meeting new people.</p>
+            </div>
+            <div class="section">
+                <h2>Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>Adana Community Center</h3>
+                        <span>2010-2018</span>
+                        <ul>
+                            <li>Voice training</li>
+                            <li>Experience in choral singing</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>MG Akademi</h3>
+                        <span>2023-Present</span>
+                        <ul>
+                            <li>2D and 3D designing</li>
+                            <li>Game Development</li>
+                            <li>Photoshop skills</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3>Ertugrul Gazi Sport Complex</h3>
+                        <span>June 2023-September 2023</span>
+                        <ul>
+                            <li>First aid training</li>
+                            <li>Lifeguarding in swimming</li>
+                            <li>Working as a swimming instructor</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="section">
+                <h2>Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>Tugrulbey Middle School</h3>
+                        <span>2013-2017</span>
+                        <h3>Final Highschool</h3>
+                        <span>2017-2021</span>
+                        <h3>Karabuk University</h3>
+                        <span>2022-present</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="section">
+                <h2>Contacts</h2>
+                <ul class="contact-list">
+                    <li>📞<span>+90 533 309 03 52</span></li>
+                    <li>✉️<span>turik5629@gmail.com</span></li>
+                    <li>📍<span>Adana, Türkiye</span></li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Unity</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe Illustrator</li>
+                    <li>C#, C, Java, PHP</li>
+                    <li>HTML, CSS, JavaScript</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Certificates</h2>
+                <ul>
+                    <li>GSB Swimming Certificate - 2023</li>
+                    <li>Drone and Coding Certificate - 2025</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Turkish: Native</li>
+                    <li>English: B1</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>References</h2>
+                <p><strong>Kadriye Karadeniz</strong><br>Karabuk University<br>📞  0 (370) 418 9615</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
